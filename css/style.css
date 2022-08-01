@@ -1,0 +1,83 @@
+@import url("./home_page.css");
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 14px;
+  }
+  .nav__list-item {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 10px;
+  }
+  .nav__list-item {
+    margin-right: 10px;
+  }
+}
+
+.footer {
+  background-image: url(/img/forestBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 130px;
+}
+
+.logo_footer {
+  z-index: 2;
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+  margin-bottom: 1rem;
+}
+.logo_footer a {
+  font-family: "Courgette";
+  font-weight: 400;
+}
+
+.info {
+  width: 20%;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+}
+
+.footer__navigation_name {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5625rem;
+  line-height: 1.8125rem;
+}
+
+.footer__menu {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 190%;
+}
